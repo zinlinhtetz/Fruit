@@ -1,0 +1,117 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.5s;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/808510/pexels-photo-808510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #e9e9e9;
+}
+
+h1 {
+    background-color: #a4d3a3;
+    padding: 10px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    margin: 10px 5px;
+    font-size: 70%;
+    text-align: justify;
+    text-justify: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+i {
+    font-size: 70%;
+}
+
+#t_search {
+    border: none;
+    outline: none;
+    font-size: 100%;
+    border: 1px solid #4c9a2a;
+    border-radius: 20px;
+    padding: 5px 8px;
+    width: 230px;
+    margin: 10px;
+}
+
+#t_search:focus {
+    background-color: #a4d3a3;
+}
+
+#btn {
+    border: none;
+    outline: none;
+    background-color: white;
+    width: 80px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 100%;
+    border: 1px solid #4c9a2a;
+}
+
+#btn:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
+    cursor: pointer;
+    background-color: #a4d3a3;
+}
+
+#benefit {
+    display: none;
+    margin: 20px 5px;
+    font-size: 90%;
+    border-bottom: 1px solid #4c9a2a;
+}
+
+#fruit {
+    font-size: 90%;
+    background-color: rgb(245, 255, 105);
+}
+
+#benefits {
+    text-indent: 20px;
+    margin: 5px 7px;
+    box-shadow: 0px 0px 10px rgba(227, 228, 222, 0.993);
+    padding: 15px;
+    border-radius: 10px;
+    display: none;
+    background-color: white;
+    color: #333;
+}
+
+#benefit-of {
+    background-color: #a4d3a3;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: #d3f9d8;
+    color: #4c9a2a;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
